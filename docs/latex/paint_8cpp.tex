@@ -1,0 +1,130 @@
+\hypertarget{paint_8cpp}{\section{build/core/paint.cpp File Reference}
+\label{paint_8cpp}\index{build/core/paint.\-cpp@{build/core/paint.\-cpp}}
+}
+{\ttfamily \#include \char`\"{}core/core.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$deque$>$}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$math.\-h$>$}\\*
+Include dependency graph for paint.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=343pt]{paint_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{paint_8cpp_afdc958a7074406769b8fc3ccba93e9f6}{Polygon\-Fill\-Mean} (int $\ast$arr, int N1, int N2, point\-Double $\ast$pp, int N, double val)
+\item 
+void \hyperlink{paint_8cpp_abb3f588d240c300d2d049660e7064237}{Polygon\-Bounds} (point\-Double $\ast$p, int N, int \&i0, int \&i1, int \&j0, int \&j1)
+\item 
+void \hyperlink{paint_8cpp_ad69b78615f1146a1e415419f68d21c4e}{Polygon\-Fill} (int $\ast$arr, int N1, int N2, point\-Double $\ast$p, int N, double val)
+\item 
+void \hyperlink{paint_8cpp_afff8f2a2edda6424b0b602b35a8949bf}{Fill\-Bucket} (int $\ast$\&arr, int N1, int N2, double x, double y, double val, double threshold)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{paint_8cpp_afff8f2a2edda6424b0b602b35a8949bf}{\index{paint.\-cpp@{paint.\-cpp}!Fill\-Bucket@{Fill\-Bucket}}
+\index{Fill\-Bucket@{Fill\-Bucket}!paint.cpp@{paint.\-cpp}}
+\subsubsection[{Fill\-Bucket}]{\setlength{\rightskip}{0pt plus 5cm}void Fill\-Bucket (
+\begin{DoxyParamCaption}
+\item[{int $\ast$\&}]{arr, }
+\item[{int}]{N1, }
+\item[{int}]{N2, }
+\item[{double}]{x, }
+\item[{double}]{y, }
+\item[{double}]{val, }
+\item[{double}]{threshold}
+\end{DoxyParamCaption}
+)}}\label{paint_8cpp_afff8f2a2edda6424b0b602b35a8949bf}
+
+
+Definition at line 98 of file paint.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=256pt]{paint_8cpp_afff8f2a2edda6424b0b602b35a8949bf_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{paint_8cpp_abb3f588d240c300d2d049660e7064237}{\index{paint.\-cpp@{paint.\-cpp}!Polygon\-Bounds@{Polygon\-Bounds}}
+\index{Polygon\-Bounds@{Polygon\-Bounds}!paint.cpp@{paint.\-cpp}}
+\subsubsection[{Polygon\-Bounds}]{\setlength{\rightskip}{0pt plus 5cm}void Polygon\-Bounds (
+\begin{DoxyParamCaption}
+\item[{point\-Double $\ast$}]{p, }
+\item[{int}]{N, }
+\item[{int \&}]{i0, }
+\item[{int \&}]{i1, }
+\item[{int \&}]{j0, }
+\item[{int \&}]{j1}
+\end{DoxyParamCaption}
+)}}\label{paint_8cpp_abb3f588d240c300d2d049660e7064237}
+
+
+Definition at line 65 of file paint.\-cpp.
+
+\hypertarget{paint_8cpp_ad69b78615f1146a1e415419f68d21c4e}{\index{paint.\-cpp@{paint.\-cpp}!Polygon\-Fill@{Polygon\-Fill}}
+\index{Polygon\-Fill@{Polygon\-Fill}!paint.cpp@{paint.\-cpp}}
+\subsubsection[{Polygon\-Fill}]{\setlength{\rightskip}{0pt plus 5cm}void Polygon\-Fill (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{arr, }
+\item[{int}]{N1, }
+\item[{int}]{N2, }
+\item[{point\-Double $\ast$}]{p, }
+\item[{int}]{N, }
+\item[{double}]{val}
+\end{DoxyParamCaption}
+)}}\label{paint_8cpp_ad69b78615f1146a1e415419f68d21c4e}
+
+
+Definition at line 81 of file paint.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=284pt]{paint_8cpp_ad69b78615f1146a1e415419f68d21c4e_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{paint_8cpp_afdc958a7074406769b8fc3ccba93e9f6}{\index{paint.\-cpp@{paint.\-cpp}!Polygon\-Fill\-Mean@{Polygon\-Fill\-Mean}}
+\index{Polygon\-Fill\-Mean@{Polygon\-Fill\-Mean}!paint.cpp@{paint.\-cpp}}
+\subsubsection[{Polygon\-Fill\-Mean}]{\setlength{\rightskip}{0pt plus 5cm}void Polygon\-Fill\-Mean (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{arr, }
+\item[{int}]{N1, }
+\item[{int}]{N2, }
+\item[{point\-Double $\ast$}]{pp, }
+\item[{int}]{N, }
+\item[{double}]{val}
+\end{DoxyParamCaption}
+)}}\label{paint_8cpp_afdc958a7074406769b8fc3ccba93e9f6}
+
+
+Definition at line 8 of file paint.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{paint_8cpp_afdc958a7074406769b8fc3ccba93e9f6_cgraph}
+\end{center}
+\end{figure}
+
+

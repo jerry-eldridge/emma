@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['read_5fany_5ffile',['Read_Any_File',['../image__io_8cpp.html#a543f0bdfe2d8eaecd4f8640f5c8036e1',1,'image_io.cpp']]],
+  ['read_5fcolor_5fjpg_5ffile',['Read_Color_JPG_File',['../jpg_8cpp.html#a86aa5ad9e944bd2072135b36c8c2564a',1,'jpg.cpp']]],
+  ['read_5fdcm_5ffile',['Read_DCM_File',['../dcm_8cpp.html#aa58e827407ce18e08c71fd5e43cf61e6',1,'dcm.cpp']]],
+  ['read_5fdcm_5ffile_5finfo',['Read_DCM_File_Info',['../dcm_8cpp.html#a0582d277cff91406840dde5599551afc',1,'dcm.cpp']]],
+  ['read_5fdcm_5foptions_5ffile',['Read_DCM_Options_File',['../dcm_8cpp.html#a6466282d9e9771634889a6e4079576a5',1,'dcm.cpp']]],
+  ['read_5fem2_5ffile',['Read_Em2_File',['../ema-fmt_8cpp.html#a1e1b8e60938ac30930d080833004acf1',1,'ema-fmt.cpp']]],
+  ['read_5fema_5ffile',['Read_Ema_File',['../ema-fmt_8cpp.html#aa9ffd74e448df044ddd3c15b202cb9df',1,'ema-fmt.cpp']]],
+  ['read_5fjpg_5ffile',['Read_JPG_File',['../jpg_8cpp.html#adf3f94106852bc5fc0806cdb76c01907',1,'jpg.cpp']]],
+  ['read_5fpgm_5ffile',['Read_PGM_File',['../ppm_8cpp.html#a49481275f378b7c488c573c8e6ef6873',1,'ppm.cpp']]],
+  ['read_5fpgm_5fheader',['Read_PGM_Header',['../ppm_8cpp.html#a085da9e334ebfb46e6f827ea950e6352',1,'ppm.cpp']]],
+  ['read_5fpgm_5fp2_5ffile_5fhelper',['Read_PGM_P2_File_Helper',['../ppm_8cpp.html#a4351c29e118e4c71deeb12bdb666d33b',1,'ppm.cpp']]],
+  ['read_5fpgm_5fp5_5ffile_5fhelper',['Read_PGM_P5_File_Helper',['../ppm_8cpp.html#a9092e4ddc0e41f1b63e663e10df83553',1,'ppm.cpp']]],
+  ['read_5fppm_5ffile',['Read_PPM_File',['../ppm_8cpp.html#a43c3f07d2f4769ef69305ce8d6cc0e05',1,'ppm.cpp']]],
+  ['read_5fppm_5fheader',['Read_PPM_Header',['../ppm_8cpp.html#ab3c4dba97b14baa168e46e711aeb95bb',1,'ppm.cpp']]],
+  ['read_5fppm_5fp6_5ffile_5fhelper',['Read_PPM_P6_File_Helper',['../ppm_8cpp.html#ab9c6ebd6dce0a557006b4ab429458ce3',1,'ppm.cpp']]],
+  ['readpolygon',['ReadPolygon',['../comp__geometry_8cpp.html#a7da8af9c400ec6d4dc1158c289ce579c',1,'comp_geometry.cpp']]],
+  ['rotateangledoublearray',['RotateAngleDoubleArray',['../doublearray_8cpp.html#a1dc3c3f85d1bb420090295c8cd7b2499',1,'doublearray.cpp']]],
+  ['rotateleftdoublearray',['RotateLeftDoubleArray',['../doublearray_8cpp.html#a7c28b9f7097580074d8a9107f93fbd46',1,'doublearray.cpp']]],
+  ['rotaterightdoublearray',['RotateRightDoubleArray',['../doublearray_8cpp.html#a15e257b0d36560b30c262874f54f4a8b',1,'doublearray.cpp']]],
+  ['round',['round',['../usr__misc_8cpp.html#a35abf8e6bc22bc3736fbd65416d8c3a2',1,'usr_misc.cpp']]]
+];

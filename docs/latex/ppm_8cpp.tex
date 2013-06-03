@@ -1,0 +1,248 @@
+\hypertarget{ppm_8cpp}{\section{build/io/ppm.cpp File Reference}
+\label{ppm_8cpp}\index{build/io/ppm.\-cpp@{build/io/ppm.\-cpp}}
+}
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include \char`\"{}core/common.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}core/int\-\_\-images.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}core/colorimage.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}io/ppm.\-h\char`\"{}}\\*
+Include dependency graph for ppm.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ppm_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{ppm_8cpp_a085da9e334ebfb46e6f827ea950e6352}{Read\-\_\-\-P\-G\-M\-\_\-\-Header} (F\-I\-L\-E $\ast$\&fp, char header\mbox{[}$\,$\mbox{]}, int \&M\-A\-X\-V\-A\-L, int \&N1, int \&N2)
+\item 
+void \hyperlink{ppm_8cpp_a49481275f378b7c488c573c8e6ef6873}{Read\-\_\-\-P\-G\-M\-\_\-\-File} (char $\ast$filename, int \&M\-A\-X\-V\-A\-L, int \&N1, int \&N2, int $\ast$\&image)
+\item 
+void \hyperlink{ppm_8cpp_a43c3f07d2f4769ef69305ce8d6cc0e05}{Read\-\_\-\-P\-P\-M\-\_\-\-File} (char $\ast$filename, int \&M\-A\-X\-V\-A\-L, int \&N1, int \&N2, color $\ast$\&image)
+\item 
+void \hyperlink{ppm_8cpp_a4351c29e118e4c71deeb12bdb666d33b}{Read\-\_\-\-P\-G\-M\-\_\-\-P2\-\_\-\-File\-\_\-\-Helper} (F\-I\-L\-E $\ast$\&fp, int \&N1, int \&N2, int $\ast$\&image)
+\item 
+void \hyperlink{ppm_8cpp_a9092e4ddc0e41f1b63e663e10df83553}{Read\-\_\-\-P\-G\-M\-\_\-\-P5\-\_\-\-File\-\_\-\-Helper} (F\-I\-L\-E $\ast$\&fp, int \&N1, int \&N2, int $\ast$\&image)
+\item 
+void \hyperlink{ppm_8cpp_ab9c6ebd6dce0a557006b4ab429458ce3}{Read\-\_\-\-P\-P\-M\-\_\-\-P6\-\_\-\-File\-\_\-\-Helper} (F\-I\-L\-E $\ast$\&fp, int \&N1, int \&N2, color $\ast$\&image)
+\item 
+void \hyperlink{ppm_8cpp_a1561f4b24aaceedabe389397068f2a2e}{P\-G\-M\-\_\-\-P2\-\_\-\-From\-\_\-\-Image} (char $\ast$filename, int $\ast$image, int N1, int N2, int maxval)
+\item 
+void \hyperlink{ppm_8cpp_a83476112cd14cea1a46711f429371603}{P\-G\-M\-\_\-\-P5\-\_\-\-From\-\_\-\-Image} (char $\ast$filename, int $\ast$image, int N1, int N2)
+\item 
+void \hyperlink{ppm_8cpp_a194be32f44473b54e70a66e6f70be142}{P\-P\-M\-\_\-\-P6\-\_\-\-From\-\_\-\-Color\-Image} (char $\ast$filename, color $\ast$Color\-Image, int N1, int N2)
+\item 
+void \hyperlink{ppm_8cpp_ab3c4dba97b14baa168e46e711aeb95bb}{Read\-\_\-\-P\-P\-M\-\_\-\-Header} (F\-I\-L\-E $\ast$\&fp, char header\mbox{[}$\,$\mbox{]}, int \&M\-A\-X\-V\-A\-L, int \&N1, int \&N2)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{ppm_8cpp_a1561f4b24aaceedabe389397068f2a2e}{\index{ppm.\-cpp@{ppm.\-cpp}!P\-G\-M\-\_\-\-P2\-\_\-\-From\-\_\-\-Image@{P\-G\-M\-\_\-\-P2\-\_\-\-From\-\_\-\-Image}}
+\index{P\-G\-M\-\_\-\-P2\-\_\-\-From\-\_\-\-Image@{P\-G\-M\-\_\-\-P2\-\_\-\-From\-\_\-\-Image}!ppm.cpp@{ppm.\-cpp}}
+\subsubsection[{P\-G\-M\-\_\-\-P2\-\_\-\-From\-\_\-\-Image}]{\setlength{\rightskip}{0pt plus 5cm}void P\-G\-M\-\_\-\-P2\-\_\-\-From\-\_\-\-Image (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename, }
+\item[{int $\ast$}]{image, }
+\item[{int}]{N1, }
+\item[{int}]{N2, }
+\item[{int}]{maxval}
+\end{DoxyParamCaption}
+)}}\label{ppm_8cpp_a1561f4b24aaceedabe389397068f2a2e}
+
+
+Definition at line 132 of file ppm.\-cpp.
+
+\hypertarget{ppm_8cpp_a83476112cd14cea1a46711f429371603}{\index{ppm.\-cpp@{ppm.\-cpp}!P\-G\-M\-\_\-\-P5\-\_\-\-From\-\_\-\-Image@{P\-G\-M\-\_\-\-P5\-\_\-\-From\-\_\-\-Image}}
+\index{P\-G\-M\-\_\-\-P5\-\_\-\-From\-\_\-\-Image@{P\-G\-M\-\_\-\-P5\-\_\-\-From\-\_\-\-Image}!ppm.cpp@{ppm.\-cpp}}
+\subsubsection[{P\-G\-M\-\_\-\-P5\-\_\-\-From\-\_\-\-Image}]{\setlength{\rightskip}{0pt plus 5cm}void P\-G\-M\-\_\-\-P5\-\_\-\-From\-\_\-\-Image (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename, }
+\item[{int $\ast$}]{image, }
+\item[{int}]{N1, }
+\item[{int}]{N2}
+\end{DoxyParamCaption}
+)}}\label{ppm_8cpp_a83476112cd14cea1a46711f429371603}
+
+
+Definition at line 148 of file ppm.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{ppm_8cpp_a83476112cd14cea1a46711f429371603_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ppm_8cpp_a194be32f44473b54e70a66e6f70be142}{\index{ppm.\-cpp@{ppm.\-cpp}!P\-P\-M\-\_\-\-P6\-\_\-\-From\-\_\-\-Color\-Image@{P\-P\-M\-\_\-\-P6\-\_\-\-From\-\_\-\-Color\-Image}}
+\index{P\-P\-M\-\_\-\-P6\-\_\-\-From\-\_\-\-Color\-Image@{P\-P\-M\-\_\-\-P6\-\_\-\-From\-\_\-\-Color\-Image}!ppm.cpp@{ppm.\-cpp}}
+\subsubsection[{P\-P\-M\-\_\-\-P6\-\_\-\-From\-\_\-\-Color\-Image}]{\setlength{\rightskip}{0pt plus 5cm}void P\-P\-M\-\_\-\-P6\-\_\-\-From\-\_\-\-Color\-Image (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename, }
+\item[{color $\ast$}]{Color\-Image, }
+\item[{int}]{N1, }
+\item[{int}]{N2}
+\end{DoxyParamCaption}
+)}}\label{ppm_8cpp_a194be32f44473b54e70a66e6f70be142}
+
+
+Definition at line 172 of file ppm.\-cpp.
+
+\hypertarget{ppm_8cpp_a49481275f378b7c488c573c8e6ef6873}{\index{ppm.\-cpp@{ppm.\-cpp}!Read\-\_\-\-P\-G\-M\-\_\-\-File@{Read\-\_\-\-P\-G\-M\-\_\-\-File}}
+\index{Read\-\_\-\-P\-G\-M\-\_\-\-File@{Read\-\_\-\-P\-G\-M\-\_\-\-File}!ppm.cpp@{ppm.\-cpp}}
+\subsubsection[{Read\-\_\-\-P\-G\-M\-\_\-\-File}]{\setlength{\rightskip}{0pt plus 5cm}void Read\-\_\-\-P\-G\-M\-\_\-\-File (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename, }
+\item[{int \&}]{M\-A\-X\-V\-A\-L, }
+\item[{int \&}]{N1, }
+\item[{int \&}]{N2, }
+\item[{int $\ast$\&}]{image}
+\end{DoxyParamCaption}
+)}}\label{ppm_8cpp_a49481275f378b7c488c573c8e6ef6873}
+
+
+Definition at line 37 of file ppm.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ppm_8cpp_a49481275f378b7c488c573c8e6ef6873_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ppm_8cpp_a085da9e334ebfb46e6f827ea950e6352}{\index{ppm.\-cpp@{ppm.\-cpp}!Read\-\_\-\-P\-G\-M\-\_\-\-Header@{Read\-\_\-\-P\-G\-M\-\_\-\-Header}}
+\index{Read\-\_\-\-P\-G\-M\-\_\-\-Header@{Read\-\_\-\-P\-G\-M\-\_\-\-Header}!ppm.cpp@{ppm.\-cpp}}
+\subsubsection[{Read\-\_\-\-P\-G\-M\-\_\-\-Header}]{\setlength{\rightskip}{0pt plus 5cm}void Read\-\_\-\-P\-G\-M\-\_\-\-Header (
+\begin{DoxyParamCaption}
+\item[{F\-I\-L\-E $\ast$\&}]{fp, }
+\item[{char}]{header\mbox{[}$\,$\mbox{]}, }
+\item[{int \&}]{M\-A\-X\-V\-A\-L, }
+\item[{int \&}]{N1, }
+\item[{int \&}]{N2}
+\end{DoxyParamCaption}
+)}}\label{ppm_8cpp_a085da9e334ebfb46e6f827ea950e6352}
+
+
+Definition at line 10 of file ppm.\-cpp.
+
+\hypertarget{ppm_8cpp_a4351c29e118e4c71deeb12bdb666d33b}{\index{ppm.\-cpp@{ppm.\-cpp}!Read\-\_\-\-P\-G\-M\-\_\-\-P2\-\_\-\-File\-\_\-\-Helper@{Read\-\_\-\-P\-G\-M\-\_\-\-P2\-\_\-\-File\-\_\-\-Helper}}
+\index{Read\-\_\-\-P\-G\-M\-\_\-\-P2\-\_\-\-File\-\_\-\-Helper@{Read\-\_\-\-P\-G\-M\-\_\-\-P2\-\_\-\-File\-\_\-\-Helper}!ppm.cpp@{ppm.\-cpp}}
+\subsubsection[{Read\-\_\-\-P\-G\-M\-\_\-\-P2\-\_\-\-File\-\_\-\-Helper}]{\setlength{\rightskip}{0pt plus 5cm}void Read\-\_\-\-P\-G\-M\-\_\-\-P2\-\_\-\-File\-\_\-\-Helper (
+\begin{DoxyParamCaption}
+\item[{F\-I\-L\-E $\ast$\&}]{fp, }
+\item[{int \&}]{N1, }
+\item[{int \&}]{N2, }
+\item[{int $\ast$\&}]{image}
+\end{DoxyParamCaption}
+)}}\label{ppm_8cpp_a4351c29e118e4c71deeb12bdb666d33b}
+
+
+Definition at line 73 of file ppm.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ppm_8cpp_a4351c29e118e4c71deeb12bdb666d33b_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ppm_8cpp_a9092e4ddc0e41f1b63e663e10df83553}{\index{ppm.\-cpp@{ppm.\-cpp}!Read\-\_\-\-P\-G\-M\-\_\-\-P5\-\_\-\-File\-\_\-\-Helper@{Read\-\_\-\-P\-G\-M\-\_\-\-P5\-\_\-\-File\-\_\-\-Helper}}
+\index{Read\-\_\-\-P\-G\-M\-\_\-\-P5\-\_\-\-File\-\_\-\-Helper@{Read\-\_\-\-P\-G\-M\-\_\-\-P5\-\_\-\-File\-\_\-\-Helper}!ppm.cpp@{ppm.\-cpp}}
+\subsubsection[{Read\-\_\-\-P\-G\-M\-\_\-\-P5\-\_\-\-File\-\_\-\-Helper}]{\setlength{\rightskip}{0pt plus 5cm}void Read\-\_\-\-P\-G\-M\-\_\-\-P5\-\_\-\-File\-\_\-\-Helper (
+\begin{DoxyParamCaption}
+\item[{F\-I\-L\-E $\ast$\&}]{fp, }
+\item[{int \&}]{N1, }
+\item[{int \&}]{N2, }
+\item[{int $\ast$\&}]{image}
+\end{DoxyParamCaption}
+)}}\label{ppm_8cpp_a9092e4ddc0e41f1b63e663e10df83553}
+
+
+Definition at line 90 of file ppm.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ppm_8cpp_a9092e4ddc0e41f1b63e663e10df83553_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ppm_8cpp_a43c3f07d2f4769ef69305ce8d6cc0e05}{\index{ppm.\-cpp@{ppm.\-cpp}!Read\-\_\-\-P\-P\-M\-\_\-\-File@{Read\-\_\-\-P\-P\-M\-\_\-\-File}}
+\index{Read\-\_\-\-P\-P\-M\-\_\-\-File@{Read\-\_\-\-P\-P\-M\-\_\-\-File}!ppm.cpp@{ppm.\-cpp}}
+\subsubsection[{Read\-\_\-\-P\-P\-M\-\_\-\-File}]{\setlength{\rightskip}{0pt plus 5cm}void Read\-\_\-\-P\-P\-M\-\_\-\-File (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename, }
+\item[{int \&}]{M\-A\-X\-V\-A\-L, }
+\item[{int \&}]{N1, }
+\item[{int \&}]{N2, }
+\item[{color $\ast$\&}]{image}
+\end{DoxyParamCaption}
+)}}\label{ppm_8cpp_a43c3f07d2f4769ef69305ce8d6cc0e05}
+
+
+Definition at line 55 of file ppm.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{ppm_8cpp_a43c3f07d2f4769ef69305ce8d6cc0e05_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ppm_8cpp_ab3c4dba97b14baa168e46e711aeb95bb}{\index{ppm.\-cpp@{ppm.\-cpp}!Read\-\_\-\-P\-P\-M\-\_\-\-Header@{Read\-\_\-\-P\-P\-M\-\_\-\-Header}}
+\index{Read\-\_\-\-P\-P\-M\-\_\-\-Header@{Read\-\_\-\-P\-P\-M\-\_\-\-Header}!ppm.cpp@{ppm.\-cpp}}
+\subsubsection[{Read\-\_\-\-P\-P\-M\-\_\-\-Header}]{\setlength{\rightskip}{0pt plus 5cm}void Read\-\_\-\-P\-P\-M\-\_\-\-Header (
+\begin{DoxyParamCaption}
+\item[{F\-I\-L\-E $\ast$\&}]{fp, }
+\item[{char}]{header\mbox{[}$\,$\mbox{]}, }
+\item[{int \&}]{M\-A\-X\-V\-A\-L, }
+\item[{int \&}]{N1, }
+\item[{int \&}]{N2}
+\end{DoxyParamCaption}
+)}}\label{ppm_8cpp_ab3c4dba97b14baa168e46e711aeb95bb}
+
+
+Definition at line 182 of file ppm.\-cpp.
+
+\hypertarget{ppm_8cpp_ab9c6ebd6dce0a557006b4ab429458ce3}{\index{ppm.\-cpp@{ppm.\-cpp}!Read\-\_\-\-P\-P\-M\-\_\-\-P6\-\_\-\-File\-\_\-\-Helper@{Read\-\_\-\-P\-P\-M\-\_\-\-P6\-\_\-\-File\-\_\-\-Helper}}
+\index{Read\-\_\-\-P\-P\-M\-\_\-\-P6\-\_\-\-File\-\_\-\-Helper@{Read\-\_\-\-P\-P\-M\-\_\-\-P6\-\_\-\-File\-\_\-\-Helper}!ppm.cpp@{ppm.\-cpp}}
+\subsubsection[{Read\-\_\-\-P\-P\-M\-\_\-\-P6\-\_\-\-File\-\_\-\-Helper}]{\setlength{\rightskip}{0pt plus 5cm}void Read\-\_\-\-P\-P\-M\-\_\-\-P6\-\_\-\-File\-\_\-\-Helper (
+\begin{DoxyParamCaption}
+\item[{F\-I\-L\-E $\ast$\&}]{fp, }
+\item[{int \&}]{N1, }
+\item[{int \&}]{N2, }
+\item[{color $\ast$\&}]{image}
+\end{DoxyParamCaption}
+)}}\label{ppm_8cpp_ab9c6ebd6dce0a557006b4ab429458ce3}
+
+
+Definition at line 113 of file ppm.\-cpp.
+

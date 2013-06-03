@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "worldmap_graph", "worldmap_graph.vcproj", "{568A4CF0-336B-48E5-B7D6-1C197233A0CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{568A4CF0-336B-48E5-B7D6-1C197233A0CF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{568A4CF0-336B-48E5-B7D6-1C197233A0CF}.Debug|Win32.Build.0 = Debug|Win32
+		{568A4CF0-336B-48E5-B7D6-1C197233A0CF}.Release|Win32.ActiveCfg = Release|Win32
+		{568A4CF0-336B-48E5-B7D6-1C197233A0CF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

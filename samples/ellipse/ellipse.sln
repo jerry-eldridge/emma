@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ellipse", "ellipse.vcproj", "{CF6468C7-C620-4DC4-A679-C476AD5DB3F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF6468C7-C620-4DC4-A679-C476AD5DB3F8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF6468C7-C620-4DC4-A679-C476AD5DB3F8}.Debug|Win32.Build.0 = Debug|Win32
+		{CF6468C7-C620-4DC4-A679-C476AD5DB3F8}.Release|Win32.ActiveCfg = Release|Win32
+		{CF6468C7-C620-4DC4-A679-C476AD5DB3F8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

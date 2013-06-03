@@ -1,0 +1,155 @@
+\hypertarget{plot_8cpp}{\section{build/core/plot.cpp File Reference}
+\label{plot_8cpp}\index{build/core/plot.\-cpp@{build/core/plot.\-cpp}}
+}
+{\ttfamily \#include \char`\"{}core/core.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}io/io.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$math.\-h$>$}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$fstream$>$}\\*
+Include dependency graph for plot.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{plot_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{plot_8cpp_ae2a051ac8a896f0274ac928c429bef73}{Plot} (char $\ast$data\-\_\-file, int $\ast$img, int w, int h, int maxval, int x0, int y0, int x1, int y1, bool plot\-\_\-points, bool draw\-\_\-lines, bool draw\-\_\-bars)
+\item 
+void \hyperlink{plot_8cpp_ac015766db7d2fc6bd12966c73c71fbcb}{Graph\-Paper} (int $\ast$\&img, int w, int h, int maxval, int ni, int nj, int col)
+\item 
+void \hyperlink{plot_8cpp_ae4572006c82a2c1eed42c7c845e41956}{Graph\-Polygon} (int $\ast$img, int w, int h, int maxval, char $\ast$filename, int xsize, int ysize, int line\-\_\-color, int grid\-\_\-color)
+\item 
+void \hyperlink{plot_8cpp_a896b061d8c5334d1db327ca0b1f49b71}{Graph\-Polygon2} (int $\ast$img, int w, int h, int maxval, polygon $\ast$ship, int xsize, int ysize, int line\-\_\-color, int grid\-\_\-color)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{plot_8cpp_ac015766db7d2fc6bd12966c73c71fbcb}{\index{plot.\-cpp@{plot.\-cpp}!Graph\-Paper@{Graph\-Paper}}
+\index{Graph\-Paper@{Graph\-Paper}!plot.cpp@{plot.\-cpp}}
+\subsubsection[{Graph\-Paper}]{\setlength{\rightskip}{0pt plus 5cm}void Graph\-Paper (
+\begin{DoxyParamCaption}
+\item[{int $\ast$\&}]{img, }
+\item[{int}]{w, }
+\item[{int}]{h, }
+\item[{int}]{maxval, }
+\item[{int}]{ni, }
+\item[{int}]{nj, }
+\item[{int}]{col}
+\end{DoxyParamCaption}
+)}}\label{plot_8cpp_ac015766db7d2fc6bd12966c73c71fbcb}
+
+
+Definition at line 102 of file plot.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{plot_8cpp_ac015766db7d2fc6bd12966c73c71fbcb_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{plot_8cpp_ae4572006c82a2c1eed42c7c845e41956}{\index{plot.\-cpp@{plot.\-cpp}!Graph\-Polygon@{Graph\-Polygon}}
+\index{Graph\-Polygon@{Graph\-Polygon}!plot.cpp@{plot.\-cpp}}
+\subsubsection[{Graph\-Polygon}]{\setlength{\rightskip}{0pt plus 5cm}void Graph\-Polygon (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{img, }
+\item[{int}]{w, }
+\item[{int}]{h, }
+\item[{int}]{maxval, }
+\item[{char $\ast$}]{filename, }
+\item[{int}]{xsize, }
+\item[{int}]{ysize, }
+\item[{int}]{line\-\_\-color, }
+\item[{int}]{grid\-\_\-color}
+\end{DoxyParamCaption}
+)}}\label{plot_8cpp_ae4572006c82a2c1eed42c7c845e41956}
+
+
+Definition at line 122 of file plot.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{plot_8cpp_ae4572006c82a2c1eed42c7c845e41956_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{plot_8cpp_a896b061d8c5334d1db327ca0b1f49b71}{\index{plot.\-cpp@{plot.\-cpp}!Graph\-Polygon2@{Graph\-Polygon2}}
+\index{Graph\-Polygon2@{Graph\-Polygon2}!plot.cpp@{plot.\-cpp}}
+\subsubsection[{Graph\-Polygon2}]{\setlength{\rightskip}{0pt plus 5cm}void Graph\-Polygon2 (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{img, }
+\item[{int}]{w, }
+\item[{int}]{h, }
+\item[{int}]{maxval, }
+\item[{polygon $\ast$}]{ship, }
+\item[{int}]{xsize, }
+\item[{int}]{ysize, }
+\item[{int}]{line\-\_\-color, }
+\item[{int}]{grid\-\_\-color}
+\end{DoxyParamCaption}
+)}}\label{plot_8cpp_a896b061d8c5334d1db327ca0b1f49b71}
+
+
+Definition at line 148 of file plot.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{plot_8cpp_a896b061d8c5334d1db327ca0b1f49b71_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{plot_8cpp_ae2a051ac8a896f0274ac928c429bef73}{\index{plot.\-cpp@{plot.\-cpp}!Plot@{Plot}}
+\index{Plot@{Plot}!plot.cpp@{plot.\-cpp}}
+\subsubsection[{Plot}]{\setlength{\rightskip}{0pt plus 5cm}void Plot (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{data\-\_\-file, }
+\item[{int $\ast$}]{img, }
+\item[{int}]{w, }
+\item[{int}]{h, }
+\item[{int}]{maxval, }
+\item[{int}]{x0, }
+\item[{int}]{y0, }
+\item[{int}]{x1, }
+\item[{int}]{y1, }
+\item[{bool}]{plot\-\_\-points, }
+\item[{bool}]{draw\-\_\-lines, }
+\item[{bool}]{draw\-\_\-bars}
+\end{DoxyParamCaption}
+)}}\label{plot_8cpp_ae2a051ac8a896f0274ac928c429bef73}
+
+
+Definition at line 9 of file plot.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{plot_8cpp_ae2a051ac8a896f0274ac928c429bef73_cgraph}
+\end{center}
+\end{figure}
+
+

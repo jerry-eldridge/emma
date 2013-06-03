@@ -1,0 +1,161 @@
+\hypertarget{jpg_8cpp}{\section{build/io/jpg.cpp File Reference}
+\label{jpg_8cpp}\index{build/io/jpg.\-cpp@{build/io/jpg.\-cpp}}
+}
+{\ttfamily \#include \char`\"{}core/common.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}core/colorimage.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}io/ppm.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+Include dependency graph for jpg.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{jpg_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{jpg_8cpp_a86aa5ad9e944bd2072135b36c8c2564a}{Read\-\_\-\-Color\-\_\-\-J\-P\-G\-\_\-\-File} (char $\ast$filename, int \&M\-A\-X\-V\-A\-L, int \&N1, int \&N2, color $\ast$\&image)
+\item 
+void \hyperlink{jpg_8cpp_a3a9d23ac6ff7f3032f9532aa8e5de8fc}{J\-P\-G\-\_\-\-From\-\_\-\-Image} (char $\ast$filename, int $\ast$image, int N1, int N2)
+\item 
+void \hyperlink{jpg_8cpp_a015916cafadc1e069b7eb5f3ea6016d9}{J\-P\-G\-\_\-\-From\-\_\-\-Color\-Image} (char $\ast$filename, color $\ast$image, int N1, int N2)
+\item 
+void \hyperlink{jpg_8cpp_adf3f94106852bc5fc0806cdb76c01907}{Read\-\_\-\-J\-P\-G\-\_\-\-File} (char $\ast$filename, int \&M\-A\-X\-V\-A\-L, int \&N1, int \&N2, int $\ast$\&image)
+\item 
+void \hyperlink{jpg_8cpp_af458fb5800fd9b1740a7f8b7243d3fca}{Save\-\_\-\-J\-P\-G\-\_\-\-P6} (Color\-Image $\ast$img, char $\ast$imagefile)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{jpg_8cpp_a015916cafadc1e069b7eb5f3ea6016d9}{\index{jpg.\-cpp@{jpg.\-cpp}!J\-P\-G\-\_\-\-From\-\_\-\-Color\-Image@{J\-P\-G\-\_\-\-From\-\_\-\-Color\-Image}}
+\index{J\-P\-G\-\_\-\-From\-\_\-\-Color\-Image@{J\-P\-G\-\_\-\-From\-\_\-\-Color\-Image}!jpg.cpp@{jpg.\-cpp}}
+\subsubsection[{J\-P\-G\-\_\-\-From\-\_\-\-Color\-Image}]{\setlength{\rightskip}{0pt plus 5cm}void J\-P\-G\-\_\-\-From\-\_\-\-Color\-Image (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename, }
+\item[{color $\ast$}]{image, }
+\item[{int}]{N1, }
+\item[{int}]{N2}
+\end{DoxyParamCaption}
+)}}\label{jpg_8cpp_a015916cafadc1e069b7eb5f3ea6016d9}
+
+
+Definition at line 40 of file jpg.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{jpg_8cpp_a015916cafadc1e069b7eb5f3ea6016d9_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{jpg_8cpp_a3a9d23ac6ff7f3032f9532aa8e5de8fc}{\index{jpg.\-cpp@{jpg.\-cpp}!J\-P\-G\-\_\-\-From\-\_\-\-Image@{J\-P\-G\-\_\-\-From\-\_\-\-Image}}
+\index{J\-P\-G\-\_\-\-From\-\_\-\-Image@{J\-P\-G\-\_\-\-From\-\_\-\-Image}!jpg.cpp@{jpg.\-cpp}}
+\subsubsection[{J\-P\-G\-\_\-\-From\-\_\-\-Image}]{\setlength{\rightskip}{0pt plus 5cm}void J\-P\-G\-\_\-\-From\-\_\-\-Image (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename, }
+\item[{int $\ast$}]{image, }
+\item[{int}]{N1, }
+\item[{int}]{N2}
+\end{DoxyParamCaption}
+)}}\label{jpg_8cpp_a3a9d23ac6ff7f3032f9532aa8e5de8fc}
+
+
+Definition at line 26 of file jpg.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{jpg_8cpp_a3a9d23ac6ff7f3032f9532aa8e5de8fc_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{jpg_8cpp_a86aa5ad9e944bd2072135b36c8c2564a}{\index{jpg.\-cpp@{jpg.\-cpp}!Read\-\_\-\-Color\-\_\-\-J\-P\-G\-\_\-\-File@{Read\-\_\-\-Color\-\_\-\-J\-P\-G\-\_\-\-File}}
+\index{Read\-\_\-\-Color\-\_\-\-J\-P\-G\-\_\-\-File@{Read\-\_\-\-Color\-\_\-\-J\-P\-G\-\_\-\-File}!jpg.cpp@{jpg.\-cpp}}
+\subsubsection[{Read\-\_\-\-Color\-\_\-\-J\-P\-G\-\_\-\-File}]{\setlength{\rightskip}{0pt plus 5cm}void Read\-\_\-\-Color\-\_\-\-J\-P\-G\-\_\-\-File (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename, }
+\item[{int \&}]{M\-A\-X\-V\-A\-L, }
+\item[{int \&}]{N1, }
+\item[{int \&}]{N2, }
+\item[{color $\ast$\&}]{image}
+\end{DoxyParamCaption}
+)}}\label{jpg_8cpp_a86aa5ad9e944bd2072135b36c8c2564a}
+
+
+Definition at line 8 of file jpg.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{jpg_8cpp_a86aa5ad9e944bd2072135b36c8c2564a_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{jpg_8cpp_adf3f94106852bc5fc0806cdb76c01907}{\index{jpg.\-cpp@{jpg.\-cpp}!Read\-\_\-\-J\-P\-G\-\_\-\-File@{Read\-\_\-\-J\-P\-G\-\_\-\-File}}
+\index{Read\-\_\-\-J\-P\-G\-\_\-\-File@{Read\-\_\-\-J\-P\-G\-\_\-\-File}!jpg.cpp@{jpg.\-cpp}}
+\subsubsection[{Read\-\_\-\-J\-P\-G\-\_\-\-File}]{\setlength{\rightskip}{0pt plus 5cm}void Read\-\_\-\-J\-P\-G\-\_\-\-File (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename, }
+\item[{int \&}]{M\-A\-X\-V\-A\-L, }
+\item[{int \&}]{N1, }
+\item[{int \&}]{N2, }
+\item[{int $\ast$\&}]{image}
+\end{DoxyParamCaption}
+)}}\label{jpg_8cpp_adf3f94106852bc5fc0806cdb76c01907}
+
+
+Definition at line 55 of file jpg.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{jpg_8cpp_adf3f94106852bc5fc0806cdb76c01907_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{jpg_8cpp_af458fb5800fd9b1740a7f8b7243d3fca}{\index{jpg.\-cpp@{jpg.\-cpp}!Save\-\_\-\-J\-P\-G\-\_\-\-P6@{Save\-\_\-\-J\-P\-G\-\_\-\-P6}}
+\index{Save\-\_\-\-J\-P\-G\-\_\-\-P6@{Save\-\_\-\-J\-P\-G\-\_\-\-P6}!jpg.cpp@{jpg.\-cpp}}
+\subsubsection[{Save\-\_\-\-J\-P\-G\-\_\-\-P6}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-\_\-\-J\-P\-G\-\_\-\-P6 (
+\begin{DoxyParamCaption}
+\item[{Color\-Image $\ast$}]{img, }
+\item[{char $\ast$}]{imagefile}
+\end{DoxyParamCaption}
+)}}\label{jpg_8cpp_af458fb5800fd9b1740a7f8b7243d3fca}
+
+
+Definition at line 69 of file jpg.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{jpg_8cpp_af458fb5800fd9b1740a7f8b7243d3fca_cgraph}
+\end{center}
+\end{figure}
+
+

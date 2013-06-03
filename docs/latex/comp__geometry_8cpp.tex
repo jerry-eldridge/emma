@@ -1,0 +1,144 @@
+\hypertarget{comp__geometry_8cpp}{\section{build/core/comp\-\_\-geometry.cpp File Reference}
+\label{comp__geometry_8cpp}\index{build/core/comp\-\_\-geometry.\-cpp@{build/core/comp\-\_\-geometry.\-cpp}}
+}
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$math.\-h$>$}\\*
+{\ttfamily \#include $<$fstream$>$}\\*
+{\ttfamily \#include $<$queue$>$}\\*
+{\ttfamily \#include \char`\"{}core/common.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}core/comp\-\_\-geometry.\-h\char`\"{}}\\*
+Include dependency graph for comp\-\_\-geometry.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{comp__geometry_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+point \hyperlink{comp__geometry_8cpp_af347554b700856d257b5d3b6947778dd}{Polygon\-Centroid} (point $\ast$p, int np, double $\ast$area)
+\item 
+bool \hyperlink{comp__geometry_8cpp_a0ef1b95f8118540e26d99ae423b9b385}{Segment\-Intersect} (double Ax, double Ay, double Bx, double By, double Cx, double Cy, double Dx, double Dy, double \&X, double \&Y)
+\item 
+int \hyperlink{comp__geometry_8cpp_aac9e1c9ec2e6dd9d8ac0d147d72f2102}{Point\-In\-Polygon\-Test} (point $\ast$p, int N, double x, double y)
+\item 
+bool \hyperlink{comp__geometry_8cpp_a249e4aef00b1f29f718d33328e86edfb}{Poly\-Poly\-Intersect} (point $\ast$p, int np, point $\ast$q, int nq)
+\item 
+void \hyperlink{comp__geometry_8cpp_a7da8af9c400ec6d4dc1158c289ce579c}{Read\-Polygon} (char $\ast$poly\-\_\-file, polygon $\ast$poly)
+\item 
+void \hyperlink{comp__geometry_8cpp_a4028b729f373ea5ad22cfba68ac66df5}{Save\-Polygon} (polygon $\ast$poly, char $\ast$poly\-\_\-file)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{comp__geometry_8cpp_aac9e1c9ec2e6dd9d8ac0d147d72f2102}{\index{comp\-\_\-geometry.\-cpp@{comp\-\_\-geometry.\-cpp}!Point\-In\-Polygon\-Test@{Point\-In\-Polygon\-Test}}
+\index{Point\-In\-Polygon\-Test@{Point\-In\-Polygon\-Test}!comp_geometry.cpp@{comp\-\_\-geometry.\-cpp}}
+\subsubsection[{Point\-In\-Polygon\-Test}]{\setlength{\rightskip}{0pt plus 5cm}int Point\-In\-Polygon\-Test (
+\begin{DoxyParamCaption}
+\item[{point $\ast$}]{p, }
+\item[{int}]{N, }
+\item[{double}]{x, }
+\item[{double}]{y}
+\end{DoxyParamCaption}
+)}}\label{comp__geometry_8cpp_aac9e1c9ec2e6dd9d8ac0d147d72f2102}
+
+
+Definition at line 100 of file comp\-\_\-geometry.\-cpp.
+
+\hypertarget{comp__geometry_8cpp_af347554b700856d257b5d3b6947778dd}{\index{comp\-\_\-geometry.\-cpp@{comp\-\_\-geometry.\-cpp}!Polygon\-Centroid@{Polygon\-Centroid}}
+\index{Polygon\-Centroid@{Polygon\-Centroid}!comp_geometry.cpp@{comp\-\_\-geometry.\-cpp}}
+\subsubsection[{Polygon\-Centroid}]{\setlength{\rightskip}{0pt plus 5cm}point Polygon\-Centroid (
+\begin{DoxyParamCaption}
+\item[{point $\ast$}]{p, }
+\item[{int}]{np, }
+\item[{double $\ast$}]{area}
+\end{DoxyParamCaption}
+)}}\label{comp__geometry_8cpp_af347554b700856d257b5d3b6947778dd}
+
+
+Definition at line 11 of file comp\-\_\-geometry.\-cpp.
+
+\hypertarget{comp__geometry_8cpp_a249e4aef00b1f29f718d33328e86edfb}{\index{comp\-\_\-geometry.\-cpp@{comp\-\_\-geometry.\-cpp}!Poly\-Poly\-Intersect@{Poly\-Poly\-Intersect}}
+\index{Poly\-Poly\-Intersect@{Poly\-Poly\-Intersect}!comp_geometry.cpp@{comp\-\_\-geometry.\-cpp}}
+\subsubsection[{Poly\-Poly\-Intersect}]{\setlength{\rightskip}{0pt plus 5cm}bool Poly\-Poly\-Intersect (
+\begin{DoxyParamCaption}
+\item[{point $\ast$}]{p, }
+\item[{int}]{np, }
+\item[{point $\ast$}]{q, }
+\item[{int}]{nq}
+\end{DoxyParamCaption}
+)}}\label{comp__geometry_8cpp_a249e4aef00b1f29f718d33328e86edfb}
+
+
+Definition at line 116 of file comp\-\_\-geometry.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=304pt]{comp__geometry_8cpp_a249e4aef00b1f29f718d33328e86edfb_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{comp__geometry_8cpp_a7da8af9c400ec6d4dc1158c289ce579c}{\index{comp\-\_\-geometry.\-cpp@{comp\-\_\-geometry.\-cpp}!Read\-Polygon@{Read\-Polygon}}
+\index{Read\-Polygon@{Read\-Polygon}!comp_geometry.cpp@{comp\-\_\-geometry.\-cpp}}
+\subsubsection[{Read\-Polygon}]{\setlength{\rightskip}{0pt plus 5cm}void Read\-Polygon (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{poly\-\_\-file, }
+\item[{polygon $\ast$}]{poly}
+\end{DoxyParamCaption}
+)}}\label{comp__geometry_8cpp_a7da8af9c400ec6d4dc1158c289ce579c}
+
+
+Definition at line 135 of file comp\-\_\-geometry.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=278pt]{comp__geometry_8cpp_a7da8af9c400ec6d4dc1158c289ce579c_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{comp__geometry_8cpp_a4028b729f373ea5ad22cfba68ac66df5}{\index{comp\-\_\-geometry.\-cpp@{comp\-\_\-geometry.\-cpp}!Save\-Polygon@{Save\-Polygon}}
+\index{Save\-Polygon@{Save\-Polygon}!comp_geometry.cpp@{comp\-\_\-geometry.\-cpp}}
+\subsubsection[{Save\-Polygon}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-Polygon (
+\begin{DoxyParamCaption}
+\item[{polygon $\ast$}]{poly, }
+\item[{char $\ast$}]{poly\-\_\-file}
+\end{DoxyParamCaption}
+)}}\label{comp__geometry_8cpp_a4028b729f373ea5ad22cfba68ac66df5}
+
+
+Definition at line 164 of file comp\-\_\-geometry.\-cpp.
+
+\hypertarget{comp__geometry_8cpp_a0ef1b95f8118540e26d99ae423b9b385}{\index{comp\-\_\-geometry.\-cpp@{comp\-\_\-geometry.\-cpp}!Segment\-Intersect@{Segment\-Intersect}}
+\index{Segment\-Intersect@{Segment\-Intersect}!comp_geometry.cpp@{comp\-\_\-geometry.\-cpp}}
+\subsubsection[{Segment\-Intersect}]{\setlength{\rightskip}{0pt plus 5cm}bool Segment\-Intersect (
+\begin{DoxyParamCaption}
+\item[{double}]{Ax, }
+\item[{double}]{Ay, }
+\item[{double}]{Bx, }
+\item[{double}]{By, }
+\item[{double}]{Cx, }
+\item[{double}]{Cy, }
+\item[{double}]{Dx, }
+\item[{double}]{Dy, }
+\item[{double \&}]{X, }
+\item[{double \&}]{Y}
+\end{DoxyParamCaption}
+)}}\label{comp__geometry_8cpp_a0ef1b95f8118540e26d99ae423b9b385}
+
+
+Definition at line 49 of file comp\-\_\-geometry.\-cpp.
+

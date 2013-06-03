@@ -1,0 +1,26 @@
+Haar Filter Bank - Comments.txt -- 20120811
+
+ellipse.pgm --h0--> r0.pgm --downsample--> y0.pgm (Save)
+
+y0.pgm --upsample--> t0.pgm --f0--> v0.pgm (Load)
+
+Note that ellipse.pgm is 500 x 500 or 974KB
+as a PGM P2 file. y0.pgm and t0.pgm both
+are 487KB. v0 is nearly the same as ellipse.pgm
+but a little loss in quality occured.
+
+If you stored the image ellipse.pgm as y0.pgm
+it seems you've compressed from 974KB to 487KB.
+
+What is called Analysis is the Save operation then
+and Synthesis the Load operation.
+
+You would load y0.pgm in an program that read
+the y0.pgm file, then did synthesis to create v0.pgm.
+And display v0.pgm in the image viewer or editor. 
+
+Doing this compresses the storage space by 2,
+going from 974KB to half that at 487KB but lossy
+compression. The quality of v0.pgm is slightly lower
+than ellipse.pgm.
+

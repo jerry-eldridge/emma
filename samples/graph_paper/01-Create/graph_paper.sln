@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "graph_paper", "graph_paper.vcproj", "{30A0EAB9-876B-49E5-B4CF-3F6CD2827F05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30A0EAB9-876B-49E5-B4CF-3F6CD2827F05}.Debug|Win32.ActiveCfg = Debug|Win32
+		{30A0EAB9-876B-49E5-B4CF-3F6CD2827F05}.Debug|Win32.Build.0 = Debug|Win32
+		{30A0EAB9-876B-49E5-B4CF-3F6CD2827F05}.Release|Win32.ActiveCfg = Release|Win32
+		{30A0EAB9-876B-49E5-B4CF-3F6CD2827F05}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

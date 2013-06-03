@@ -1,0 +1,150 @@
+\hypertarget{polygon_8cpp}{\section{build/core/polygon.cpp File Reference}
+\label{polygon_8cpp}\index{build/core/polygon.\-cpp@{build/core/polygon.\-cpp}}
+}
+{\ttfamily \#include \char`\"{}core/core.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$math.\-h$>$}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+Include dependency graph for polygon.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{polygon_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{polygon_8cpp_ab0b6a45f2592b9234b25f15c174c080d}{Draw\-Lines} (int $\ast$\&image, int w, int h, point\-Double $\ast$p, int N, int val)
+\item 
+void \hyperlink{polygon_8cpp_ae435ec75eef851cca7efed6c9fbcee38}{Draw\-Polygon} (int $\ast$\&image, int w, int h, point\-Double $\ast$p, int N, int val)
+\item 
+int \hyperlink{polygon_8cpp_a10d5ec59ad89effaa33ef1ae3aaf514b}{Point\-In\-Polygon\-Test} (point\-Double $\ast$p, int N, double x, double y)
+\item 
+double \hyperlink{polygon_8cpp_a65e121aab73f795af35656b884a4f36d}{B\-Spline\-\_\-\-Patch} (double u, double v, double $\ast$P)
+\item 
+double \hyperlink{polygon_8cpp_a530da8b290fe86dbb356f49b2f8ebe0a}{Bezier\-\_\-\-Patch} (double u, double v, double $\ast$P)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{polygon_8cpp_a530da8b290fe86dbb356f49b2f8ebe0a}{\index{polygon.\-cpp@{polygon.\-cpp}!Bezier\-\_\-\-Patch@{Bezier\-\_\-\-Patch}}
+\index{Bezier\-\_\-\-Patch@{Bezier\-\_\-\-Patch}!polygon.cpp@{polygon.\-cpp}}
+\subsubsection[{Bezier\-\_\-\-Patch}]{\setlength{\rightskip}{0pt plus 5cm}double Bezier\-\_\-\-Patch (
+\begin{DoxyParamCaption}
+\item[{double}]{u, }
+\item[{double}]{v, }
+\item[{double $\ast$}]{P}
+\end{DoxyParamCaption}
+)}}\label{polygon_8cpp_a530da8b290fe86dbb356f49b2f8ebe0a}
+
+
+Definition at line 94 of file polygon.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{polygon_8cpp_a530da8b290fe86dbb356f49b2f8ebe0a_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{polygon_8cpp_a65e121aab73f795af35656b884a4f36d}{\index{polygon.\-cpp@{polygon.\-cpp}!B\-Spline\-\_\-\-Patch@{B\-Spline\-\_\-\-Patch}}
+\index{B\-Spline\-\_\-\-Patch@{B\-Spline\-\_\-\-Patch}!polygon.cpp@{polygon.\-cpp}}
+\subsubsection[{B\-Spline\-\_\-\-Patch}]{\setlength{\rightskip}{0pt plus 5cm}double B\-Spline\-\_\-\-Patch (
+\begin{DoxyParamCaption}
+\item[{double}]{u, }
+\item[{double}]{v, }
+\item[{double $\ast$}]{P}
+\end{DoxyParamCaption}
+)}}\label{polygon_8cpp_a65e121aab73f795af35656b884a4f36d}
+
+
+Definition at line 45 of file polygon.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{polygon_8cpp_a65e121aab73f795af35656b884a4f36d_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{polygon_8cpp_ab0b6a45f2592b9234b25f15c174c080d}{\index{polygon.\-cpp@{polygon.\-cpp}!Draw\-Lines@{Draw\-Lines}}
+\index{Draw\-Lines@{Draw\-Lines}!polygon.cpp@{polygon.\-cpp}}
+\subsubsection[{Draw\-Lines}]{\setlength{\rightskip}{0pt plus 5cm}void Draw\-Lines (
+\begin{DoxyParamCaption}
+\item[{int $\ast$\&}]{image, }
+\item[{int}]{w, }
+\item[{int}]{h, }
+\item[{point\-Double $\ast$}]{p, }
+\item[{int}]{N, }
+\item[{int}]{val}
+\end{DoxyParamCaption}
+)}}\label{polygon_8cpp_ab0b6a45f2592b9234b25f15c174c080d}
+
+
+Definition at line 7 of file polygon.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{polygon_8cpp_ab0b6a45f2592b9234b25f15c174c080d_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{polygon_8cpp_ae435ec75eef851cca7efed6c9fbcee38}{\index{polygon.\-cpp@{polygon.\-cpp}!Draw\-Polygon@{Draw\-Polygon}}
+\index{Draw\-Polygon@{Draw\-Polygon}!polygon.cpp@{polygon.\-cpp}}
+\subsubsection[{Draw\-Polygon}]{\setlength{\rightskip}{0pt plus 5cm}void Draw\-Polygon (
+\begin{DoxyParamCaption}
+\item[{int $\ast$\&}]{image, }
+\item[{int}]{w, }
+\item[{int}]{h, }
+\item[{point\-Double $\ast$}]{p, }
+\item[{int}]{N, }
+\item[{int}]{val}
+\end{DoxyParamCaption}
+)}}\label{polygon_8cpp_ae435ec75eef851cca7efed6c9fbcee38}
+
+
+Definition at line 17 of file polygon.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{polygon_8cpp_ae435ec75eef851cca7efed6c9fbcee38_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{polygon_8cpp_a10d5ec59ad89effaa33ef1ae3aaf514b}{\index{polygon.\-cpp@{polygon.\-cpp}!Point\-In\-Polygon\-Test@{Point\-In\-Polygon\-Test}}
+\index{Point\-In\-Polygon\-Test@{Point\-In\-Polygon\-Test}!polygon.cpp@{polygon.\-cpp}}
+\subsubsection[{Point\-In\-Polygon\-Test}]{\setlength{\rightskip}{0pt plus 5cm}int Point\-In\-Polygon\-Test (
+\begin{DoxyParamCaption}
+\item[{point\-Double $\ast$}]{p, }
+\item[{int}]{N, }
+\item[{double}]{x, }
+\item[{double}]{y}
+\end{DoxyParamCaption}
+)}}\label{polygon_8cpp_a10d5ec59ad89effaa33ef1ae3aaf514b}
+
+
+Definition at line 29 of file polygon.\-cpp.
+

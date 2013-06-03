@@ -1,0 +1,17 @@
+7
+0,"x[n]","none"
+1,"Attenuator 1/(M2+1)","rectangle"
+2,"","connection"
+3,"(M2+1) sample delay","rectangle"
+4,"+","circle"
+5,"Accumulator system","rectangle"
+6,"y[n]","none"
+7
+0,1,"x[n]","",""
+1,2,"","",""
+2,3,"","",""
+3,4,"","","-"
+2,4,"","","+"
+4,5,"","",""
+5,6,"y[n]","",""
+

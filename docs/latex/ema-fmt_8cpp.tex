@@ -1,0 +1,177 @@
+\hypertarget{ema-fmt_8cpp}{\section{build/io/ema-\/fmt.cpp File Reference}
+\label{ema-fmt_8cpp}\index{build/io/ema-\/fmt.\-cpp@{build/io/ema-\/fmt.\-cpp}}
+}
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include \char`\"{}core/core.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}io/io.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$fstream$>$}\\*
+{\ttfamily \#include $<$math.\-h$>$}\\*
+{\ttfamily \#include $<$time.\-h$>$}\\*
+Include dependency graph for ema-\/fmt.cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ema-fmt_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{ema-fmt_8cpp_aa9ffd74e448df044ddd3c15b202cb9df}{Read\-\_\-\-Ema\-\_\-\-File} (char $\ast$filename, int \&M\-A\-X\-V\-A\-L, int \&N1, int \&N2, int $\ast$\&img, Vector3\-D camera, Vector3\-D center)
+\item 
+point\-Double \hyperlink{ema-fmt_8cpp_ac1d53d9bdaa9cd148e63ec89f5c5cfe0}{Projection} (point3 P, Vector3\-D proj)
+\item 
+int \hyperlink{ema-fmt_8cpp_a20725ac53f6720e2d8861abfc1dde5c9}{compare} (point3 $\ast$P, Vector3\-D proj)
+\item 
+void \hyperlink{ema-fmt_8cpp_a8fdeaf22db4641c22cc3711035267392}{bubblesort} (point3 $\ast$\&V\-V, int M, Vector3\-D proj)
+\item 
+bool \hyperlink{ema-fmt_8cpp_aa0f292641e20d262acae6cd3bf4dc26d}{Back\-Face\-Test} (point3 $\ast$V\-V, int M, Vector3\-D Proj)
+\item 
+void \hyperlink{ema-fmt_8cpp_a1e1b8e60938ac30930d080833004acf1}{Read\-\_\-\-Em2\-\_\-\-File} (char $\ast$filename, int \&M\-A\-X\-V\-A\-L, int \&N1, int \&N2, int $\ast$\&img)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{ema-fmt_8cpp_aa0f292641e20d262acae6cd3bf4dc26d}{\index{ema-\/fmt.\-cpp@{ema-\/fmt.\-cpp}!Back\-Face\-Test@{Back\-Face\-Test}}
+\index{Back\-Face\-Test@{Back\-Face\-Test}!ema-fmt.cpp@{ema-\/fmt.\-cpp}}
+\subsubsection[{Back\-Face\-Test}]{\setlength{\rightskip}{0pt plus 5cm}bool Back\-Face\-Test (
+\begin{DoxyParamCaption}
+\item[{point3 $\ast$}]{V\-V, }
+\item[{int}]{M, }
+\item[{Vector3\-D}]{Proj}
+\end{DoxyParamCaption}
+)}}\label{ema-fmt_8cpp_aa0f292641e20d262acae6cd3bf4dc26d}
+
+
+Definition at line 146 of file ema-\/fmt.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ema-fmt_8cpp_aa0f292641e20d262acae6cd3bf4dc26d_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ema-fmt_8cpp_a8fdeaf22db4641c22cc3711035267392}{\index{ema-\/fmt.\-cpp@{ema-\/fmt.\-cpp}!bubblesort@{bubblesort}}
+\index{bubblesort@{bubblesort}!ema-fmt.cpp@{ema-\/fmt.\-cpp}}
+\subsubsection[{bubblesort}]{\setlength{\rightskip}{0pt plus 5cm}void bubblesort (
+\begin{DoxyParamCaption}
+\item[{point3 $\ast$\&}]{V\-V, }
+\item[{int}]{M, }
+\item[{Vector3\-D}]{proj}
+\end{DoxyParamCaption}
+)}}\label{ema-fmt_8cpp_a8fdeaf22db4641c22cc3711035267392}
+
+
+Definition at line 124 of file ema-\/fmt.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{ema-fmt_8cpp_a8fdeaf22db4641c22cc3711035267392_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ema-fmt_8cpp_a20725ac53f6720e2d8861abfc1dde5c9}{\index{ema-\/fmt.\-cpp@{ema-\/fmt.\-cpp}!compare@{compare}}
+\index{compare@{compare}!ema-fmt.cpp@{ema-\/fmt.\-cpp}}
+\subsubsection[{compare}]{\setlength{\rightskip}{0pt plus 5cm}int compare (
+\begin{DoxyParamCaption}
+\item[{point3 $\ast$}]{P, }
+\item[{Vector3\-D}]{proj}
+\end{DoxyParamCaption}
+)}}\label{ema-fmt_8cpp_a20725ac53f6720e2d8861abfc1dde5c9}
+
+
+Definition at line 92 of file ema-\/fmt.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{ema-fmt_8cpp_a20725ac53f6720e2d8861abfc1dde5c9_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ema-fmt_8cpp_ac1d53d9bdaa9cd148e63ec89f5c5cfe0}{\index{ema-\/fmt.\-cpp@{ema-\/fmt.\-cpp}!Projection@{Projection}}
+\index{Projection@{Projection}!ema-fmt.cpp@{ema-\/fmt.\-cpp}}
+\subsubsection[{Projection}]{\setlength{\rightskip}{0pt plus 5cm}point\-Double Projection (
+\begin{DoxyParamCaption}
+\item[{point3}]{P, }
+\item[{Vector3\-D}]{proj}
+\end{DoxyParamCaption}
+)}}\label{ema-fmt_8cpp_ac1d53d9bdaa9cd148e63ec89f5c5cfe0}
+
+
+Definition at line 75 of file ema-\/fmt.\-cpp.
+
+\hypertarget{ema-fmt_8cpp_a1e1b8e60938ac30930d080833004acf1}{\index{ema-\/fmt.\-cpp@{ema-\/fmt.\-cpp}!Read\-\_\-\-Em2\-\_\-\-File@{Read\-\_\-\-Em2\-\_\-\-File}}
+\index{Read\-\_\-\-Em2\-\_\-\-File@{Read\-\_\-\-Em2\-\_\-\-File}!ema-fmt.cpp@{ema-\/fmt.\-cpp}}
+\subsubsection[{Read\-\_\-\-Em2\-\_\-\-File}]{\setlength{\rightskip}{0pt plus 5cm}void Read\-\_\-\-Em2\-\_\-\-File (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename, }
+\item[{int \&}]{M\-A\-X\-V\-A\-L, }
+\item[{int \&}]{N1, }
+\item[{int \&}]{N2, }
+\item[{int $\ast$\&}]{img}
+\end{DoxyParamCaption}
+)}}\label{ema-fmt_8cpp_a1e1b8e60938ac30930d080833004acf1}
+
+
+Definition at line 191 of file ema-\/fmt.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ema-fmt_8cpp_a1e1b8e60938ac30930d080833004acf1_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{ema-fmt_8cpp_aa9ffd74e448df044ddd3c15b202cb9df}{\index{ema-\/fmt.\-cpp@{ema-\/fmt.\-cpp}!Read\-\_\-\-Ema\-\_\-\-File@{Read\-\_\-\-Ema\-\_\-\-File}}
+\index{Read\-\_\-\-Ema\-\_\-\-File@{Read\-\_\-\-Ema\-\_\-\-File}!ema-fmt.cpp@{ema-\/fmt.\-cpp}}
+\subsubsection[{Read\-\_\-\-Ema\-\_\-\-File}]{\setlength{\rightskip}{0pt plus 5cm}void Read\-\_\-\-Ema\-\_\-\-File (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename, }
+\item[{int \&}]{M\-A\-X\-V\-A\-L, }
+\item[{int \&}]{N1, }
+\item[{int \&}]{N2, }
+\item[{int $\ast$\&}]{img, }
+\item[{Vector3\-D}]{camera, }
+\item[{Vector3\-D}]{center}
+\end{DoxyParamCaption}
+)}}\label{ema-fmt_8cpp_aa9ffd74e448df044ddd3c15b202cb9df}
+
+
+Definition at line 34 of file ema-\/fmt.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{ema-fmt_8cpp_aa9ffd74e448df044ddd3c15b202cb9df_cgraph}
+\end{center}
+\end{figure}
+
+

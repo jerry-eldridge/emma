@@ -1,0 +1,164 @@
+\hypertarget{int__images_8cpp}{\section{build/core/int\-\_\-images.cpp File Reference}
+\label{int__images_8cpp}\index{build/core/int\-\_\-images.\-cpp@{build/core/int\-\_\-images.\-cpp}}
+}
+{\ttfamily \#include \char`\"{}core/int\-\_\-images.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$math.\-h$>$}\\*
+Include dependency graph for int\-\_\-images.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=239pt]{int__images_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{int__images_8cpp_a568053681a5be2f596275673cc5e1ca8}{Transpose\-Int\-Array} (int $\ast$image, int N1, int N2, int $\ast$\&image\-T, int \&M1, int \&M2)
+\item 
+void \hyperlink{int__images_8cpp_a9d494ac577b8f730f707bccca450c709}{Set\-Int\-Array} (int $\ast$\&image, int N1, int N2, int val)
+\item 
+void \hyperlink{int__images_8cpp_a5e71256621170542d1cdf2ad8e4014ae}{Zero\-Int\-Array} (int $\ast$\&image, int N1, int N2)
+\item 
+void \hyperlink{int__images_8cpp_a3cc4ac0921702a9e1444dec0b1ac6c67}{Copy\-Double\-To\-Int\-Array} (double $\ast$arr, int $\ast$\&image, int N1, int N2)
+\item 
+void \hyperlink{int__images_8cpp_a52256a9a6fe5c6129391f2314bedf948}{Copy\-Int\-To\-Double\-Array} (int $\ast$image, double $\ast$\&arr, int N1, int N2)
+\item 
+void \hyperlink{int__images_8cpp_aba51d8e304322c1c4ae2283aca9ea218}{Concat\-Two\-Images\-By\-Width} (int $\ast$image\-A, int $\ast$image\-B, int $\ast$\&image\-Out, int Width\-A, int Width\-B, int Height)
+\item 
+void \hyperlink{int__images_8cpp_a78fd5c1f36ae8a7e7371412aef1ec4e0}{Convolve\-Int\-Arrays} (int $\ast$image1, int $\ast$image2, int $\ast$\&image3, int N1, int N2, int M1, int M2)
+\item 
+void \hyperlink{int__images_8cpp_a4bd82ce1c04b38108353551c51211a00}{Correct\-Signed\-Word\-Image} (int $\ast$\&image, int N1, int N2)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{int__images_8cpp_aba51d8e304322c1c4ae2283aca9ea218}{\index{int\-\_\-images.\-cpp@{int\-\_\-images.\-cpp}!Concat\-Two\-Images\-By\-Width@{Concat\-Two\-Images\-By\-Width}}
+\index{Concat\-Two\-Images\-By\-Width@{Concat\-Two\-Images\-By\-Width}!int_images.cpp@{int\-\_\-images.\-cpp}}
+\subsubsection[{Concat\-Two\-Images\-By\-Width}]{\setlength{\rightskip}{0pt plus 5cm}void Concat\-Two\-Images\-By\-Width (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{image\-A, }
+\item[{int $\ast$}]{image\-B, }
+\item[{int $\ast$\&}]{image\-Out, }
+\item[{int}]{Width\-A, }
+\item[{int}]{Width\-B, }
+\item[{int}]{Height}
+\end{DoxyParamCaption}
+)}}\label{int__images_8cpp_aba51d8e304322c1c4ae2283aca9ea218}
+
+
+Definition at line 47 of file int\-\_\-images.\-cpp.
+
+\hypertarget{int__images_8cpp_a78fd5c1f36ae8a7e7371412aef1ec4e0}{\index{int\-\_\-images.\-cpp@{int\-\_\-images.\-cpp}!Convolve\-Int\-Arrays@{Convolve\-Int\-Arrays}}
+\index{Convolve\-Int\-Arrays@{Convolve\-Int\-Arrays}!int_images.cpp@{int\-\_\-images.\-cpp}}
+\subsubsection[{Convolve\-Int\-Arrays}]{\setlength{\rightskip}{0pt plus 5cm}void Convolve\-Int\-Arrays (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{image1, }
+\item[{int $\ast$}]{image2, }
+\item[{int $\ast$\&}]{image3, }
+\item[{int}]{N1, }
+\item[{int}]{N2, }
+\item[{int}]{M1, }
+\item[{int}]{M2}
+\end{DoxyParamCaption}
+)}}\label{int__images_8cpp_a78fd5c1f36ae8a7e7371412aef1ec4e0}
+
+
+Definition at line 76 of file int\-\_\-images.\-cpp.
+
+\hypertarget{int__images_8cpp_a3cc4ac0921702a9e1444dec0b1ac6c67}{\index{int\-\_\-images.\-cpp@{int\-\_\-images.\-cpp}!Copy\-Double\-To\-Int\-Array@{Copy\-Double\-To\-Int\-Array}}
+\index{Copy\-Double\-To\-Int\-Array@{Copy\-Double\-To\-Int\-Array}!int_images.cpp@{int\-\_\-images.\-cpp}}
+\subsubsection[{Copy\-Double\-To\-Int\-Array}]{\setlength{\rightskip}{0pt plus 5cm}void Copy\-Double\-To\-Int\-Array (
+\begin{DoxyParamCaption}
+\item[{double $\ast$}]{arr, }
+\item[{int $\ast$\&}]{image, }
+\item[{int}]{N1, }
+\item[{int}]{N2}
+\end{DoxyParamCaption}
+)}}\label{int__images_8cpp_a3cc4ac0921702a9e1444dec0b1ac6c67}
+
+
+Definition at line 27 of file int\-\_\-images.\-cpp.
+
+\hypertarget{int__images_8cpp_a52256a9a6fe5c6129391f2314bedf948}{\index{int\-\_\-images.\-cpp@{int\-\_\-images.\-cpp}!Copy\-Int\-To\-Double\-Array@{Copy\-Int\-To\-Double\-Array}}
+\index{Copy\-Int\-To\-Double\-Array@{Copy\-Int\-To\-Double\-Array}!int_images.cpp@{int\-\_\-images.\-cpp}}
+\subsubsection[{Copy\-Int\-To\-Double\-Array}]{\setlength{\rightskip}{0pt plus 5cm}void Copy\-Int\-To\-Double\-Array (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{image, }
+\item[{double $\ast$\&}]{arr, }
+\item[{int}]{N1, }
+\item[{int}]{N2}
+\end{DoxyParamCaption}
+)}}\label{int__images_8cpp_a52256a9a6fe5c6129391f2314bedf948}
+
+
+Definition at line 37 of file int\-\_\-images.\-cpp.
+
+\hypertarget{int__images_8cpp_a4bd82ce1c04b38108353551c51211a00}{\index{int\-\_\-images.\-cpp@{int\-\_\-images.\-cpp}!Correct\-Signed\-Word\-Image@{Correct\-Signed\-Word\-Image}}
+\index{Correct\-Signed\-Word\-Image@{Correct\-Signed\-Word\-Image}!int_images.cpp@{int\-\_\-images.\-cpp}}
+\subsubsection[{Correct\-Signed\-Word\-Image}]{\setlength{\rightskip}{0pt plus 5cm}void Correct\-Signed\-Word\-Image (
+\begin{DoxyParamCaption}
+\item[{int $\ast$\&}]{image, }
+\item[{int}]{N1, }
+\item[{int}]{N2}
+\end{DoxyParamCaption}
+)}}\label{int__images_8cpp_a4bd82ce1c04b38108353551c51211a00}
+
+
+Definition at line 97 of file int\-\_\-images.\-cpp.
+
+\hypertarget{int__images_8cpp_a9d494ac577b8f730f707bccca450c709}{\index{int\-\_\-images.\-cpp@{int\-\_\-images.\-cpp}!Set\-Int\-Array@{Set\-Int\-Array}}
+\index{Set\-Int\-Array@{Set\-Int\-Array}!int_images.cpp@{int\-\_\-images.\-cpp}}
+\subsubsection[{Set\-Int\-Array}]{\setlength{\rightskip}{0pt plus 5cm}void Set\-Int\-Array (
+\begin{DoxyParamCaption}
+\item[{int $\ast$\&}]{image, }
+\item[{int}]{N1, }
+\item[{int}]{N2, }
+\item[{int}]{val}
+\end{DoxyParamCaption}
+)}}\label{int__images_8cpp_a9d494ac577b8f730f707bccca450c709}
+
+
+Definition at line 14 of file int\-\_\-images.\-cpp.
+
+\hypertarget{int__images_8cpp_a568053681a5be2f596275673cc5e1ca8}{\index{int\-\_\-images.\-cpp@{int\-\_\-images.\-cpp}!Transpose\-Int\-Array@{Transpose\-Int\-Array}}
+\index{Transpose\-Int\-Array@{Transpose\-Int\-Array}!int_images.cpp@{int\-\_\-images.\-cpp}}
+\subsubsection[{Transpose\-Int\-Array}]{\setlength{\rightskip}{0pt plus 5cm}void Transpose\-Int\-Array (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{image, }
+\item[{int}]{N1, }
+\item[{int}]{N2, }
+\item[{int $\ast$\&}]{image\-T, }
+\item[{int \&}]{M1, }
+\item[{int \&}]{M2}
+\end{DoxyParamCaption}
+)}}\label{int__images_8cpp_a568053681a5be2f596275673cc5e1ca8}
+
+
+Definition at line 5 of file int\-\_\-images.\-cpp.
+
+\hypertarget{int__images_8cpp_a5e71256621170542d1cdf2ad8e4014ae}{\index{int\-\_\-images.\-cpp@{int\-\_\-images.\-cpp}!Zero\-Int\-Array@{Zero\-Int\-Array}}
+\index{Zero\-Int\-Array@{Zero\-Int\-Array}!int_images.cpp@{int\-\_\-images.\-cpp}}
+\subsubsection[{Zero\-Int\-Array}]{\setlength{\rightskip}{0pt plus 5cm}void Zero\-Int\-Array (
+\begin{DoxyParamCaption}
+\item[{int $\ast$\&}]{image, }
+\item[{int}]{N1, }
+\item[{int}]{N2}
+\end{DoxyParamCaption}
+)}}\label{int__images_8cpp_a5e71256621170542d1cdf2ad8e4014ae}
+
+
+Definition at line 22 of file int\-\_\-images.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{int__images_8cpp_a5e71256621170542d1cdf2ad8e4014ae_cgraph}
+\end{center}
+\end{figure}
+
+
