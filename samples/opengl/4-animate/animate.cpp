@@ -122,6 +122,11 @@ void Walk()
 		Save_JPG_P6(&g_img,filename);
 	}
 
+	int max_saved_imgs = 100;
+	if (count >= max_saved_imgs) {
+		save = false;
+	}
+
 	count++;
 }
 
