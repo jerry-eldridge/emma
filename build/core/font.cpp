@@ -7,7 +7,7 @@ using namespace std;
 void PutSymbol(int *img, int N1, int N2,
 			   char ch, int x0, int y0, 
 			   char *font, int sx, int sy,
-			   int color)
+			   int color, double rx, double ry)
 {
 	int x,y;
 	x = y = 0;
@@ -41,7 +41,7 @@ void PutSymbol(int *img, int N1, int N2,
 			pt.x = pt_start.x + x;
 			pt.y = pt_start.y + y;
 			if (pen_down) {
-				DrawLine(img, N1, N2, last_pt, pt, color);
+				DrawLine2(img, N1, N2, last_pt, pt, color, rx,ry);
 				last_pt = pt;
 			}
 		} else if (command == 'U') {
@@ -74,11 +74,12 @@ void PutSymbolTransform(int &x, int &y, int sx, int sy)
 void PutText(int *img, int N1, int N2,
 			   char *str, int x0, int y0, 
 			   char *font, int sx, int sy,
-			   double kern, int color)
+			   double kern, int color, double rx, double ry)
 {
 	int step = kern*sx;
 	int i;
 	for (i=0; i<strlen(str); i++) {
-		PutSymbol(img, N1, N2, str[i], x0+i*step, y0, font, sx,sy, color);
+		PutSymbol(img, N1, N2, str[i], x0+i*step, y0, font, sx,sy, 
+			color, rx, ry);
 	}
 }

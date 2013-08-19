@@ -23,10 +23,15 @@ int main()
 	FillEllipse(gimg, w, h, 100,100, 150,50, 100);
 
 	char str[1024] = "Ellipse Regular and Filled";
-	PutText(gimg,w,h,str,50,250);
+	PutText(gimg,w,h,str,50,250,"font3",40,40,0.42,0,
+		2.5,2.5);
 
 	char ifile[2048] = "ellipse.pgm";
-	PutText(gimg,w,h,ifile,10,400,"font3",20,20,0.42);
+	PutText(gimg,w,h,ifile,10,400,"font3",20,20,0.42,0,
+		1,1);
+
+	PutText(gimg,w,h,"THICK",30,300,"font3",100,100,0.72,0,
+		12,12);
 
 	PGM_P2_From_Image(ifile, gimg, w, h, gmaxval);
 	system(ifile);

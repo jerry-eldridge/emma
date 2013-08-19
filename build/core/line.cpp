@@ -137,8 +137,11 @@ void DrawLine_Bresenham2(int *&arr, int N1, int N2,
 		i = round(x1); j = round(y1);
 		support = (i<0)||(i>=N1)||(j<0)||(j>=N2);
 		if (!support) {
-			//arr[j+N2*i] = val;
-			FillEllipse(arr,N1,N2,i,j,rx,ry,val);
+			if ((rx <= 1) && (ry <= 1)) {
+				arr[j+N2*i] = val;
+			} else {
+				FillEllipse(arr,N1,N2,i,j,rx,ry,val);
+			}
 		}
 		return;
 	}
@@ -160,9 +163,12 @@ void DrawLine_Bresenham2(int *&arr, int N1, int N2,
 		case XAXIS:
 			for (i=0; i<irange; i++) {
 				support = (xp<0)||(xp>=N1)||(yp<0)||(yp>=N2);
-				if (!support) {
-					//arr[yp+N2*xp] = val;
-					FillEllipse(arr,N1,N2,xp,yp,rx,ry,val);
+				if (!support) {	
+					if ((rx <= 1) && (ry <= 1)) {
+						arr[yp+N2*xp] = val;
+					} else {
+						FillEllipse(arr,N1,N2,xp,yp,rx,ry,val);
+					}
 				}
 				if (errp > 0) {
 					yp += dys;
@@ -175,9 +181,12 @@ void DrawLine_Bresenham2(int *&arr, int N1, int N2,
 		case YAXIS:
 			for (i=0; i<irange; i++) {
 				support = (xp<0)||(xp>=N1)||(yp<0)||(yp>=N2);
-				if (!support) {
-					//arr[yp+N2*xp] = val;
-					FillEllipse(arr,N1,N2,xp,yp,rx,ry,val);
+				if (!support) {	
+					if ((rx <= 1) && (ry <= 1)) {
+						arr[yp+N2*xp] = val;
+					} else {
+						FillEllipse(arr,N1,N2,xp,yp,rx,ry,val);
+					}
 				}
 				if (errp > 0) {
 					xp += dxs;

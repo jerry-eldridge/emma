@@ -13,10 +13,12 @@ void PutSymbolTransform(int &x, int &y, int sx, int sy);
 void PutSymbol(int *img, int N1, int N2,
 			   char ch, int x0, int y0, 
 			   char *font, int sx, int sy,
-			   int color);
+			   int color,
+			   double rx = 1.0, double ry = 1.0);
 void PutText(int *img, int N1, int N2,
 			   char *str, int x0, int y0, 
 			   char *font = FONT_PLAIN, int sx = 50, int sy = 50,
-			   double kern = 0.35, int color = 0);
+			   double kern = 0.35, int color = 0,
+			   double rx = 1.0, double ry = 1.0);
 
 #endif
