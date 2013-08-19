@@ -2,8 +2,8 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="objpoly"
-	ProjectGUID="{16C67D77-00C1-4DD2-A94E-C862021DD551}"
+	Name="golfball"
+	ProjectGUID="{B0858159-5B01-4DBF-9DE6-AFB505C1520F}"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="0"
 	>
@@ -178,7 +178,7 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\wav_obj.cpp"
+				RelativePath=".\golfball.cpp"
 				>
 			</File>
 		</Filter>

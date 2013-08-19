@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include "core/common.h"
 
-extern class ColorDoubleArray;
+class ColorDoubleArray;
 
 class ColorImage {
 public:

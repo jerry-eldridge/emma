@@ -2,8 +2,8 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="objpoly"
-	ProjectGUID="{16C67D77-00C1-4DD2-A94E-C862021DD551}"
+	Name="dbl_pendulum"
+	ProjectGUID="{39A8C0D0-E095-4691-B6A3-F5042FDA485E}"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="0"
 	>
@@ -178,7 +178,7 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\wav_obj.cpp"
+				RelativePath=".\dbl_pendulum.cpp"
 				>
 			</File>
 		</Filter>
