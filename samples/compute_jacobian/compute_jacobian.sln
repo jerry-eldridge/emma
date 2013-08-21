@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "compute_jacobian", "compute_jacobian.vcproj", "{701987EA-C46A-4D05-B1BD-EB400A75F9E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{701987EA-C46A-4D05-B1BD-EB400A75F9E2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{701987EA-C46A-4D05-B1BD-EB400A75F9E2}.Debug|Win32.Build.0 = Debug|Win32
+		{701987EA-C46A-4D05-B1BD-EB400A75F9E2}.Release|Win32.ActiveCfg = Release|Win32
+		{701987EA-C46A-4D05-B1BD-EB400A75F9E2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

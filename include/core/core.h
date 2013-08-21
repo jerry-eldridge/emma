@@ -9,5 +9,11 @@
 #include "core/graphics.h"
 #include "core/doublearray.h"
 #include "core/graph_image.h"
+#include "core/defs.h"
+#include "core/elim.h"
+#include "core/inverse.h"
+#include "core/jacobian.h"
+#include "core/norm.h"
+#include "core/matrix.h"
 
 #endif

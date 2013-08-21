@@ -167,11 +167,19 @@
 					>
 				</File>
 				<File
+					RelativePath="..\include\core\defs.h"
+					>
+				</File>
+				<File
 					RelativePath="..\include\core\doublearray.h"
 					>
 				</File>
 				<File
 					RelativePath="..\include\core\edge.h"
+					>
+				</File>
+				<File
+					RelativePath="..\include\core\elim.h"
 					>
 				</File>
 				<File
@@ -199,11 +207,27 @@
 					>
 				</File>
 				<File
+					RelativePath="..\include\core\inverse.h"
+					>
+				</File>
+				<File
+					RelativePath="..\include\core\jacobian.h"
+					>
+				</File>
+				<File
 					RelativePath="..\include\core\line.h"
 					>
 				</File>
 				<File
+					RelativePath="..\include\core\matrix.h"
+					>
+				</File>
+				<File
 					RelativePath="..\include\core\node.h"
+					>
+				</File>
+				<File
+					RelativePath="..\include\core\norm.h"
 					>
 				</File>
 				<File
@@ -359,6 +383,10 @@
 					>
 				</File>
 				<File
+					RelativePath=".\core\elim.cpp"
+					>
+				</File>
+				<File
 					RelativePath=".\core\font.cpp"
 					>
 				</File>
@@ -375,7 +403,23 @@
 					>
 				</File>
 				<File
+					RelativePath=".\core\inverse.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\core\jacobian.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\core\matrix.cpp"
+					>
+				</File>
+				<File
 					RelativePath=".\core\node.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\core\norm.cpp"
 					>
 				</File>
 				<File

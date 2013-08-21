@@ -1,6 +1,8 @@
 #ifndef _DOUBLEARRAY_H
 #define _DOUBLEARRAY_H
 
+#include "common.h"
+
 // [Could pass N, the size of arrs, and check if each label is within range.]
 // Grid Paint By Numbers in "labels" L1xL2. Texture or Paint in **arrs  M1xM2 each. Result is arr, N1 x N2
 void PaintByNumbersDoubleArray(double **arrs, int M1, int M2, int *labels, int L1, int L2, double *&arr, int &N1, int &N2);

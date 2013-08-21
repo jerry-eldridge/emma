@@ -1,11 +1,9 @@
-#include "core/core.h"
-#include <math.h>
-
-#include "core/core.h"
-
 #include <stdio.h>
 #include <iostream>
 using namespace std;
+
+#include "core/core.h"
+#include <math.h>
 
 // [Could pass N, the size of arrs, and check if each label is within range.]
 // Grid Paint By Numbers in "labels" L1xL2. Texture or Paint in **arrs  M1xM2 each. Result is arr, N1 x N2
@@ -688,7 +686,7 @@ void MultiplyDoubleArrays(double *arr1, double *arr2, double *&arrOut, int N1, i
 		for (k=0; k<N2; k++) { 
 			sum += arr1[k+N2*i]*arr2[j+N3*k];
 		}
-		arrOut[i+N1*j] = sum;
+		arrOut[j+N3*i] = sum;
 	}}
 }
 

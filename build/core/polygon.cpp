@@ -41,7 +41,7 @@ int PointInPolygonTest(pointDouble *p, int N, double x, double y)
 	return c;
 }
 
-
+// Edited 2013/8/20 (JGE) need to check execution at Multiply
 double BSpline_Patch(double u, double v, double *P)
 {
 	double val;
@@ -91,6 +91,7 @@ double BSpline_Patch(double u, double v, double *P)
 	return val;
 }
 
+// Edited 2013/8/20 (JGE) need to check execution at Multiply
 double Bezier_Patch(double u, double v, double *P)
 {
 	double val;
@@ -116,7 +117,7 @@ double Bezier_Patch(double u, double v, double *P)
 
 	double *A1, *A2, *A3, *A4;
 	A1 = new double[4*1];
-	MultiplyDoubleArrays(B, V, A1, 4,4,1);
+	MultiplyDoubleArrays(B, V, A1, 4,4,1); 
 	A2 = new double[4*1];
 	MultiplyDoubleArrays(P, A1, A2, 4,4,1);
 	A3 = new double[4*1];
