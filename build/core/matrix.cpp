@@ -30,7 +30,8 @@ void PrintMat(double *A, int N1, int N2)
 
 	for (i=0; i<N1; i++) {
 		for (j=0; j<N2; j++) {
-			cout << A[j+N2*i] << " ";
+			double val = A[j+N2*i];
+			cout << val << " ";
 		}
 		cout << endl;
 	}

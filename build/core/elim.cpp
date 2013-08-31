@@ -1,3 +1,5 @@
+// See Gerald and Wheatley, Applied Numerical Analysis, 5th Ed,
+// Gaussian Elimination, pg 118-119 for m = 1
 //
 // elim.cpp - Gaussian Elimination Algorithm
 //
@@ -42,15 +44,13 @@ void elim(float a[MAXSIZE][MAXSIZE],
    for (int j=1; j<=n-1; j++) {
       pvt = ABS(A[j][j]);
       pivot[j] = j;
-
+	  ipvt_store = pivot[j];
       // Find Pivot Row
       for (int i=j+1; i<=n; i++) {
          if (ABS(A[i][j]) > pvt) {
             pvt = ABS(A[i][j]);
             ipvt_store = i;
-         } else {
-            ipvt_store = pivot[j];
-         }
+         } 
       }
 
       // Switch Rows if Necessary
