@@ -1,5 +1,5 @@
 //
-// clair.cpp - vertical rotation effect like Sinclair ZX-81 played games
+// vertroll.cpp - vertical rotation effect like Sinclair ZX-81 played games
 //
 #include <windows.h>
 
